@@ -2,15 +2,16 @@ import { Page } from '@playwright/test';
 
 export class LoginPage {
 
-  // Login method that takes username and password as parameters and performs the login action on the page
+  // Constructor that initializes the page object
   constructor(private page: Page) {}
 
   // Navigate to the login page
   async navigate() {
     await this.page.goto('/');
+    await this.page.waitForSelector('#user-name');
   }
 
-  // Login
+  // Login method
   async login(username: string, password: string) {
     await this.page.fill('#user-name', username);
     await this.page.fill('#password', password);
@@ -21,4 +22,5 @@ export class LoginPage {
   async getErrorMessage() {
     return this.page.locator('[data-test="error"]');
   }
+
 }
