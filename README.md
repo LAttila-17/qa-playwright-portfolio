@@ -2,6 +2,10 @@
 
 This repository is a QA automation portfolio built with Playwright and TypeScript. It demonstrates functional UI testing, cross-browser execution, report generation, and reusable automation practices.
 
+![Playwright Tests](https://github.com/LAttila-17/qa-playwright-portfolio/actions/workflows/playwright.yml/badge.svg)
+![Node.js](https://img.shields.io/badge/node-%3E%3D18-green)
+![Playwright](https://img.shields.io/badge/tested%20with-playwright-blue)
+
 ## What is included
 
 - Playwright test suite in `tests/`
