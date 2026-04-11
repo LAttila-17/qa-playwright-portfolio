@@ -29,9 +29,13 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run tests
-        run: npx playwright test
+        run: npx playwright test --reporter=html
+
+      - name: Ensure report exists
+        run: ls -la playwright-report
 
       - name: Upload report to Pages
+        if: always()
         uses: actions/upload-pages-artifact@v3
         with:
             name: playwright-report
