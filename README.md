@@ -1,10 +1,19 @@
 # QA Playwright Portfolio
 
-![Playwright Tests](https://github.com/LAttila-17/qa-playwright-portfolio/actions/workflows/playwright.yml/badge.svg)
-![Node.js](https://img.shields.io/badge/node-24-green)
-![Playwright](https://img.shields.io/badge/tested%20with-playwright-blue)
+## 🔎 Live Test Execution Dashboard
+
+👉 **Check the latest automated test run here:**
+
+[![Playwright Test Report](https://img.shields.io/badge/Playwright%20Test%20Report-View%20Results-blue)](https://LAttila-17.github.io/qa-playwright-portfolio/)
+
+*This report is automatically generated daily after each test run via GitHub Actions.*
+
+---
 
 ## Overview
+
+![Playwright Tests](https://github.com/LAttila-17/qa-playwright-portfolio/actions/workflows/playwright.yml/badge.svg)
+
 
 This project is a QA Automation portfolio built with Playwright and TypeScript, showcasing end-to-end testing, scalable test architecture, and CI/CD integration.
 
@@ -13,6 +22,9 @@ It demonstrates real-world testing scenarios and modern QA automation best pract
 ---
 
 ## Tech Stack
+
+![Playwright](https://img.shields.io/badge/Tested%20with-Playwright-blue) ![Node.js](https://img.shields.io/badge/Node.js-24-green)
+
 
 - Playwright
 - TypeScript
@@ -66,8 +78,8 @@ This project uses GitHub Actions to automatically run Playwright tests on each p
 - Open the latest workflow run
 - Download the **playwright-report** artifact
 
-
 ![Playwright Report](./docs/report.jpg)
+
 
 ---
 
